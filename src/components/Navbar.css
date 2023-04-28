@@ -1,0 +1,30 @@
+nav {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #030b15;
+}
+
+.logo {
+  background-color: #E9AB17;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-links a {
+  color: gold;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+}
