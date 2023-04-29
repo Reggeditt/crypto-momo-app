@@ -4,6 +4,7 @@ nav {
   display: flex;
   justify-content: space-between;
   background-color: #030b15;
+  position: fixed;
 }
 
 .logo {

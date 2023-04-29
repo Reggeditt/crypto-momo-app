@@ -9,7 +9,7 @@ const Home = () => {
       </div>
       <div className="features-section">
         <h2>Key Features</h2>
-        <ul>
+        <ul className="features">
           <li>Self-custody wallet</li>
           <li>USSD technology for accessibility</li>
           <li>Easy deposit and withdrawal</li>
