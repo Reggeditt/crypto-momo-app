@@ -1,19 +1,26 @@
+import AboutUs from "./About";
+
 const Home = () => {
   return (
-    <div>
-      <h1>The Best Cryptocurrency Wallet for Africans</h1>
-      <p>Welcome to CryptoMomo Africa, the ultimate digital wallet created for Africans. Whether you're an experienced investor or new to cryptocurrencies, our platform offers a simple, safe, and accessible way to manage your digital assets.</p>
-      <h2>Key Features</h2>
-      <ul>
-        <li>Self-custody wallet</li>
-        <li>USSD technology for accessibility</li>
-        <li>Easy deposit and withdrawal</li>
-        <li>24/7 customer support</li>
-        <li>Secure and fast transactions</li>
-        <li>Low transaction fees</li>
-      </ul>
+    <section className="home-section" id="home">
+      <div className="banner">
+        <h1>The Best Cryptocurrency Wallet for Africans</h1>
+        <p>Welcome to CryptoMomo Africa, the ultimate digital wallet created for Africans. Whether you're an experienced investor or new to cryptocurrencies, our platform offers a simple, safe, and accessible way to manage your digital assets.</p>
+      </div>
+      <div className="features-section">
+        <h2>Key Features</h2>
+        <ul>
+          <li>Self-custody wallet</li>
+          <li>USSD technology for accessibility</li>
+          <li>Easy deposit and withdrawal</li>
+          <li>24/7 customer support</li>
+          <li>Secure and fast transactions</li>
+          <li>Low transaction fees</li>
+        </ul>
+      </div>
+      <AboutUs />
       <button>Join the CryptoMomo Africa community today and download our app to start managing your digital assets!</button>
-    </div>
+    </section>
   );
   // return (
   //   <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
